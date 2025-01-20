@@ -1,0 +1,2 @@
+cassandra-driver
+pyspark==3.5.1

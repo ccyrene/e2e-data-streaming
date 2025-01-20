@@ -1,1 +1,9 @@
 /venv
+/logs
+**/__pycache__
+airflow.cfg
+/temp_jars
+.env
+docs.txt
+**.jar
+Dockerfile*
