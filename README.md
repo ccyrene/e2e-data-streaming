@@ -5,7 +5,7 @@ This repository contains the implementation of a scalable, real-time data proces
 ---
 
 ## System Overview
-
+![System Overview](https://github.com/ccyrene/e2e-data-streaming/main/diagram.svg)
 The architecture comprises the following components:
 
 ### 1. **API**
@@ -82,8 +82,8 @@ To run the system, ensure you have the following installed:
    ```
 
 3. Verify the components are running:
-   - Access Apache Kafka Control Center at `http://localhost:9021`.
-   - Check Airflow's web interface at `http://localhost:8080`.
+   - Access Apache Kafka Control Center at `http://localhost:9021`
+   - Check Airflow's web interface at `http://localhost:8080`
 
 4. Trigger workflows and monitor data processing in Airflow.
 
@@ -91,7 +91,8 @@ To run the system, ensure you have the following installed:
     - local
     ```bash
     python consume_n_stream.py 
-    ``` or
+    ``` 
+    or
     ```bash
     spark-submit  \
     --master local["*"]  \
@@ -113,10 +114,10 @@ To run the system, ensure you have the following installed:
 
 - Monitor Kafka and Spark metrics using the Control Center.
 - Review Airflow DAG execution status and logs in its web interface.
-- Scale Spark workers by adjusting the configuration in `docker-compose.yml`.
+- Scale Spark workers by adjusting the configuration in `docker-compose.yml`
 
 ---
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE)
