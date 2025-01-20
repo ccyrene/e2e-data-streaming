@@ -68,6 +68,16 @@ To run the system, ensure you have the following installed:
 - Apache Spark
 - Cassandra
 
+.env file
+```bash
+KAFKA_BOOTSTRAP_SERVERS=broker:29092
+KAFKA_MAX_BLOCK_MS=5000
+
+AIRFLOW_OWNER=YOUR_NAME
+
+DATASOURCE_URL=https://randomuser.me/api/
+```
+
 ---
 
 ## Setup and Deployment
