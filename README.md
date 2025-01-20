@@ -5,7 +5,7 @@ This repository contains the implementation of a scalable, real-time data proces
 ---
 
 ## System Overview
-![System Overview](https://github.com/ccyrene/e2e-data-streaming/main/diagram.svg)
+![System Overview](https://raw.githubusercontent.com/ccyrene/e2e-data-streaming/main/diagram.svg)
 The architecture comprises the following components:
 
 ### 1. **API**
